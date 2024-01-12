@@ -3887,7 +3887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   raceInputField: {fileID: 2093473907}
-  yourRace: 0
+  yourRace: 1
 --- !u!4 &1500461742
 Transform:
   m_ObjectHideFlags: 0

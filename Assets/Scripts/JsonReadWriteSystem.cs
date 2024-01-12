@@ -15,8 +15,6 @@ public class JsonReadWriteSystem : MonoBehaviour
 
         SheetData shData = new SheetData();
         shData.character = chData;
-        // shData.scema_version = 3;
-        // shData.type = "character";
 
         string json = JsonUtility.ToJson(shData,true);
         File.WriteAllText(Application.dataPath + "/CharacterSheet.json", json);
